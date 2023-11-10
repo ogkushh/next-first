@@ -16,7 +16,11 @@
   }
 }
 
-body {
+.theme {
+  transition: 1s all ease;
+}
+
+.dark {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -24,4 +28,9 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+.light {
+  background-color: #fff;
+  color: #111;
 }

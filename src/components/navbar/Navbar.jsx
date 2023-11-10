@@ -1,6 +1,7 @@
 "use client"
 import Link from "next/link";
 import Button from "@/components/Button/Button";
+import DarkMode from "@/components/DarkMode/DarkMode";
 const Navbar = () => {
     const links = [
         {
@@ -38,6 +39,7 @@ const Navbar = () => {
         <nav className="h-[100px] flex justify-between items-center">
             <Link href='/' className="font-bold text-2xl">MyApp</Link>
             <div className="flex items-center gap-5">
+                <DarkMode/>
                 {links.map((link) => (
                         <Link
                             key={link.id}

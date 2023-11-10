@@ -9,8 +9,10 @@ module.exports = {
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'img-port1': "url('/illustration.png')",
+        'img-port2': "url('/websites.jpg')",
+        'img-port3': "url('/apps.jpg')",
       },
       keyframes: {
         move: {
@@ -23,6 +25,7 @@ module.exports = {
       },
       colors: {
         'btn' : '#53c28b',
+        'btn-blue': '#3b82f6',
         'bbb' : '#bbb'
       }
     },

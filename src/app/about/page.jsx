@@ -10,7 +10,7 @@ const Page = () => {
                 alt="About us"
                 fill={true}
             />
-            <div className="absolute bottom-5 left-5 bg-btn p-2.5">
+            <div className="absolute bottom-5 left-5 bg-btn-blue p-2.5">
                 <h1 className="">Lorem ipsum dolor sit amet, consectetur.</h1>
                 <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam consequuntur cupiditate
                     dolorem dolorum, fugit inventore iste labore laborum numquam odit possimus quidem recusandae,
